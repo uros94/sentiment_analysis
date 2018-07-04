@@ -184,7 +184,7 @@ y = np.array(output)
 
 start_time = time.time()
 # calling the training function
-######train(X, y, hidden_neurons=20, alpha=0.1, epochs=50000, dropout=False, dropout_percent=0.2)
+train(X, y, hidden_neurons=20, alpha=0.1, epochs=50000, dropout=False, dropout_percent=0.2)
 elapsed_time = time.time() - start_time
 print ("processing time:", elapsed_time, "seconds")
 
